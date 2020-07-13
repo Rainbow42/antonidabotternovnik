@@ -3,13 +3,16 @@ import misc
 import re
 import csv
 import sys
+from antonidabotternovnik.lib.api import dog
+from antonidabotternovnik.lib.api.wikipedia import main_wikipedia
+from antonidabotternovnik.lib.parser import avito
 sys.path.append("../lib/")
 from open import *
 import string
 import json
 from time import sleep
 import detect
-from  wikipedia import main_wikipedia
+
 
 token = misc.token
 
@@ -112,3 +115,4 @@ def _main():
 
 if __name__ == '__main__':
     _main()
+
